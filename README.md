@@ -1,5 +1,7 @@
 This repo will allow you to deploy a Saltstack minion that hosts an OpenRCT2 server.
 
+ATTENTION: UNTIL THIS MESSAGE HAS BEEN REMOVED, DO NOT USE THIS REPO. IT'S STILL (VERY) INCOMPLETE!
+
 Prerequisites:
 
 - Any (updated) Linux distro, although this repo is based on Ubuntu Xenial
