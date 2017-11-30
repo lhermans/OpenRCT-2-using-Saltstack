@@ -13,6 +13,13 @@ sudo pip install --upgrade pip
 sudo pip install --upgrade virtualenv 
 sudo pip install docker
 sudo pip install docker-py
+#Install some OpenRCT2 dependancies
+sudo apt-get install --no-install-recommends -y cmake libsdl2-dev \
+    gcc pkg-config libjansson-dev libspeex-dev libspeexdsp-dev libcurl4-openssl-dev \
+    libcrypto++-dev libfontconfig1-dev libfreetype6-dev libpng-dev libssl-dev libzip-dev
+sudo add-apt-repository ppa:openrct2/master
+sudo apt-get update
+########################
 echo $'Enter minion name:\n'
 read minionname
 echo "id: "$minionname >> /etc/salt/minion
